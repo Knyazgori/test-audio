@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <script defer src="./js/script.js"></script>
+  <title>Audio</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="player">
+      <div class="player_window">
+        <h1 class="title_sound">Music</h1>
+        <div class="controller">
+          <button class="left"></button>
+          <button class="right"></button>
+        </div>
+      </div>
+      <audio class="audio" src="./audio/DavidRawlings.mp3"></audio>
+      <div class="progress_block">
+        <div class="progress"></div>
+      </div>
+      <button class="sound_btn">
+        <img class='sound_src' src="/img/sound.svg" alt="">
+      </button>
+      <div class="menu">
+        <button class="prev">
+          <svg width="75" height="88" viewBox="0 0 75 88" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0 44L75 0.69873V87.3013L0 44Z" fill="white" />
+            <path d="M20 44L65 18.0192V69.9808L20 44Z" fill="#C4C4C4" />
+          </svg>
+        </button>
+        <div class="btn_block">
+          <button class="btn_play">
+            <img class="img_src" src="./img/play.svg" alt="NO IMG">
+          </button>
+        </div>
+        <button class="next">
+          <svg width="75" height="88" viewBox="0 0 75 88" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M75 44L0 87.3013V0.69873L75 44Z" fill="white" />
+            <path d="M55 44L10 69.9808V18.0192L55 44Z" fill="#C4C4C4" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
